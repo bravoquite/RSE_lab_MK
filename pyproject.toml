@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "volume"
 version = "1.0.2"
 license = { text = "GPL-3.0-or-later" }
-dependencies = ["pint>=0.25.3"]
+dependencies = ["pint>=0.24"]
 
 [project.optional-dependencies]
 test = ["pytest"] 
