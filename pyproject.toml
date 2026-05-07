@@ -4,7 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "volume"
-version = "1.1.1"
+version = "1.1.2"
+description = "Narzędzie do obliczania objętości prostopadłościanu z obsługą jednostek za pomocą biblioteki Pint."
 license = { text = "GPL-3.0-or-later" }
 dependencies = ["pint>=0.24"]
 
@@ -13,3 +14,7 @@ test = ["pytest"]
 
 [tool.setuptools]
 py-modules = ["volume"]
+
+[project.urls]
+Repository = "https://github.com/bravoquite/RSE_lec_MK.git"
+Documentation = "https://bravoquite.github.io/RSE_lec_MK/volume.html"
