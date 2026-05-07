@@ -13,4 +13,4 @@ A simple Python tool to calculate the volume of a rectangular prism with full un
 
 This project uses the **Pint** library to manage physical quantities. Pint allows for:
 1. **Mathematical consistency:** Units are tracked throughout the calculation.
-2. **Seamless conversion:** Easy handling of mixed units (e.g., multiplying centimeters by inches) and converting them to a metric standard.
+2. **Seamless conversion:** Easy handling of mixed units (e.g., multiplying centimeters by inches) and converting them to a metric standard unit.
